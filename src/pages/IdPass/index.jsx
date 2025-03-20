@@ -1,10 +1,11 @@
+import Mota from './mota'
 import NavbarDevice from './navbarDevice'
 import ShowDevice from './showDevice'
 import ShowDeviceLaptop from './showDeviceLaptop'
 import ShowDevicePrint from './showDevicePrint'
 const IdPassPage = () => {
   return (
-    <div className='container m-auto'>
+    <div className='m-auto mx-10'>
       <section>
         <NavbarDevice />
       </section>
@@ -16,6 +17,9 @@ const IdPassPage = () => {
       </section>
       <section>
         <ShowDevicePrint />
+      </section>
+      <section>
+        <Mota />
       </section>
     </div>
   )
