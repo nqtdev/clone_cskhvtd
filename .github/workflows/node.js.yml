@@ -13,11 +13,20 @@ jobs:
         node-version: [18.x]
 
     steps:
+      # Checkout code with minimal fetch depth (only the latest commit)
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # Setup Node.js environment
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+
+      # Install dependencies
       - run: npm install
+
+      # Build the project
       - run: npm run build

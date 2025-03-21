@@ -25,7 +25,7 @@ const LayoutFooter = () => {
                     d='M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75'
                   />
                 </svg>
-                <a className='ml-3 text-white'>kinhdoanh@htvtd.vn</a>
+                <a className='ml-3 text-white'>kinhdoanh@cskhvtd.vn</a>
               </div>
               <div className='mt-2 flex'>
                 <svg
@@ -94,7 +94,7 @@ const LayoutFooter = () => {
         </div>
         <div className='pt-2'>
           <h2 className='text-center font-mulish text-[.8rem] text-[#a1a5ba]'>
-            Copyright © 2023 HTVTD
+            Copyright © 2023 CSKHVTD
           </h2>
         </div>
       </div>
